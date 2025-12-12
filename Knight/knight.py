@@ -77,7 +77,7 @@ def run_visualizer(delay):
     light = (240, 217, 181)
     dark = (181, 136, 99)
 
-    knight_img = pygame.image.load("tegraf/knight/knight.png").convert_alpha()
+    knight_img = pygame.image.load("knight.png").convert_alpha()
     knight_img = pygame.transform.scale(knight_img, (TILE, TILE))
 
     def draw_board():
