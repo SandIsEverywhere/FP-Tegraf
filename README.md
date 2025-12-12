@@ -1,4 +1,4 @@
-Anggota Kelompok B07:
+## Anggota Kelompok B07
 | Name           | NRP        | Kelas     |
 | ---            | ---        | ----------|
 | Joaquin Fairuz Nawfal Ismono | 5025241106 | B |
