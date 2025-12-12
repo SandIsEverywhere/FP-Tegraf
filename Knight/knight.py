@@ -129,8 +129,11 @@ def run_visualizer(delay):
         pygame.display.flip()
         clock.tick(delay)
 
-    pygame.time.wait(1000)
-    pygame.quit()
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                exit()
 
 if __name__ == "__main__":
     try:
