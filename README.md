@@ -31,5 +31,6 @@
   4 (id 1)
     13 (id 2)
     7 (id 3)
+      8 (id 4)
   ```
-  Untuk mendapat largest monotonically increasing subsequence, lihat dari yang indennya paling banyak, dan work backwards dari situ.
+  Untuk mendapat largest monotonically increasing subsequence, lihat dari yang indennya paling banyak, dan work backwards dari situ. Contoh diatas solusi nya adalah 4, 7, 8
